@@ -16,3 +16,5 @@ forfiles /p "D:\IBM\HTTPServer\logs\tst" /s /m *.log /D-7 /C "cmd /c del @path"
 
 > Get file content - 10 last lines
 Get-Content C:\win\log\automacao.log -Tail 10
+
+https://mathieubuisson.github.io/powershell-linux-bash/ 
